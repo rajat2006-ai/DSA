@@ -8,6 +8,8 @@ class Solution {
                 if(stack.isEmpty()){
                     stack.push(i);
                     break;
+                  
+                   
                 }
                 int idx = stack.peek();
                 if (nums2[i]>nums2[idx]){
@@ -27,8 +29,9 @@ class Solution {
                 res[i] =map.get(nums1[i]);
             }
             else{
-                res[i]=-1;
+                res[i]= -1;
             }
+         
     
             
         }
