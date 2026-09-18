@@ -17,6 +17,7 @@ class Solution {
                 else{
                     stack.push(i);
                     break;
+                
                 }
             }
         } 
@@ -26,11 +27,11 @@ class Solution {
                 res[i] =map.get(nums1[i]);
             }
             else{
-                res[i] =-1;
+                res[i]=-1;
             }
     
             
         }
         return res;
-    }
+    } 
 }
