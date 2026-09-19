@@ -14,7 +14,7 @@ class Solution {
         }
         boolean[] vis = new boolean[n];
         vis[start] = true;
-        bfs(start,adj,vis);
+        bfs(start,adj, vis );
         return vis[end];
         
     }
