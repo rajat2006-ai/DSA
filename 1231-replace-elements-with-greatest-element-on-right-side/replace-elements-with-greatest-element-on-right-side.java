@@ -7,7 +7,8 @@ class Solution {
             arr[i] = max;
 
             if (temp > max) {
-                max = temp;
+                max= temp;
+            
             }
         }
 
