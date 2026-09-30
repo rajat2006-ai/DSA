@@ -26,7 +26,7 @@ class Solution {
         if (root.val == 2) {
             return left || right;
         }
-
         return left && right;
+
     }
 }
